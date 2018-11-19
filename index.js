@@ -1,7 +1,7 @@
 // Code your solution in this file
 function findMatching(drivers, string) {
-  let match = drivers.filter(function (str) { return str.toUpperCase() == string.toUpperCase()});
-  return match;
+  return drivers.filter(function (str) { return str.toUpperCase() == string.toUpperCase()});
+  //return match;
 }
 
 function fuzzyMatch(drivers, string) {
